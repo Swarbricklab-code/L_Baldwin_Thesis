@@ -23,13 +23,21 @@ The analysis of this project is described below. Each script requires an input f
 
 ### Script descriptions
 **1_merge_data.py:** concatenate cellranger outputs into one .adata object
+
 **1a_Scrublet.ipynb:** predict and remove doublets from the data
+
 **2_QC_clustering.py:** Run QC, filter and cluster data
+
 **3_umap.ipynb:** Calculate UMAP
+
 **4_major_level_annotation:** Annotate clusters at the major (lineage) level
+
 **BBKNN_just_Tcells.ipynb:** Subset T cells and batch correct using BBKNN
+
 **BBKNN_just_Tcells_annotation.ipynb:** Annotate T cells at the minor level
+
 **Tcells_mergeVDJ.ipynb:** Append TCR data to T cell object
+
 **TCR_anaysis.ipynb:** Carry out TCR QC and analysis
 
 ## Link to thesis
